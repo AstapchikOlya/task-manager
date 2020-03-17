@@ -17,6 +17,7 @@ $(document).ready(function() {
         currentModal.find('form')[0].reset();
     });
 
+    // create new task
     createTaskBtn.click(function() {
 
         var validData = true,
@@ -54,8 +55,7 @@ $(document).ready(function() {
 
     });
 
-    /////
-
+    // edit task
     var editTaskBtn = $('#btn-edit-task');
 
     editTaskBtn.click(function() {
@@ -97,8 +97,7 @@ $(document).ready(function() {
 
     });
 
-    /////
-
+    // add comment
     var addCommentBtn = $('#btn-add-comment');
 
     $('#comment-content').bind('focus', function() {

@@ -7,6 +7,10 @@
             <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#create-task-modal">
                 Create Task
             </button>
+
+            <a href="/api/loadTasks" type="button" class="btn btn-info">
+                Load Tasks
+            </a>
         </div>
     </div>
 
